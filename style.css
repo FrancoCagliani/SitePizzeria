@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos del Header */
+header {
+    background-color: #222222;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header h1 {
+    display: flex;
+    gap: 10px;
+}
+
+header nav ul {
+    font-size: 24px;
+    display: flex;
+    gap: 16px
+}
+
+/* Estilos del Main */
+main {
+    padding: 35px 20px;
+    background-color: #e5e5e5;
+}
+
+main section.hero {
+    display: flex;
+    background-color: #fff;
+    position: relative;
+}
+
+main section.hero div {
+    flex-grow: 1;
+    width: 50%;
+}
+
+/* Falta acomodar esta function*/
+main section.hero div h2 {
+    color: red;
+    font-size: 30px;
+    position:absolute;
+    padding: 20px;
+    top:0;
+    left: 0;
+    width: auto;
+}
+
+main section.hero h2 span {
+    color:white;
+    position: absolute;
+}
+
+/* Estilos del Footer */
+Footer {
+    background-color: #222222;
+    color: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+Footer h1 {
+    display: flex;
+    gap: 10px;
+    
+}
+
+Footer nav ul {
+    font-size: 24px;
+    flex-direction: column;
+    display: flex;
+    gap: 16px
+}
+
+img {
+    width: 100%;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.podio-container {
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    color: red;
+    text-align: center;
+    font-size: 36px;
+}
+
+.hero ol {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.hero li {
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 24px;
+}
+
+.arbol {
+    width: 100%;
+    max-width: 200px;
+    margin-left: auto;
+    display: block;
+}
+
